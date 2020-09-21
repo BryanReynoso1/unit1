@@ -2,31 +2,25 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       boolean likesBroccoli = false;
-       byte manyFingers = 5;
-       char favariteletter = 'r';
-       short whatIs = 10000;
-       int manyStudents = 2000000;
-       long popEarth = 780000000;
-       float mnPop = 5640000;
-       double whatS = 1000000000;
+       String person1 = "Bob";
+       String verb1 = "eat";
+       String dayOfWeek = "Monday";
+       String adjective1 = "glorious";
+       String food = "sandwich";
+       String verb2 = "go";
+       String place1 = "apartment building";
+       String person2 = "john";
+       String adjective2 = "beautiful";
+       String place2 = "park";
+       String person3 = "John";
+       String verb3 = "eat";
 
-System.out.println("what is 10^16?");
-System.out.println(whatS);
-System.out.println("what is minnesota population?");
-System.out.println(mnPop);
-System.out.println("what is the population of the earth?");
-System.out.println(popEarth);
-System.out.println("How many students are there in the world?");
-System.out.println(manyStudents);
-System.out.println("what is 100 X 100?");
-System.out.println(whatIs);
-System.out.println("what is my favorite letter?");
-System.out.println(favariteletter);
-System.out.println("how many fingers do humans have?");
-System.out.println(manyFingers);
-       System.out.println("Do I like broccoli?");
-       System.out.println(likesBroccoli);
+System.out.println(person3 + "so that they can" + verb3);
+System.out.println(adjective2 + "they go to the" + place2);
+System.out.println(place1 + "with" + person2);
+System.out.println(food + "for breakfast and" + verb2 );
+System.out.println(dayOfWeek + "they make a" + adjective1);
+    System.out.println(person1 + "is a programmer who likes to" + verb1);
     }
 
 }

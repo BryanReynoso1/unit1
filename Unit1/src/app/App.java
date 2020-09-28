@@ -1,24 +1,35 @@
 package app;
 
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-     
-Scanner input = new Scanner(System.in);
+     int count = 0;
+     String color = "red";
+     boolean nameIs = false;
 
-System.out.println("Please enter a name");
-String name1 = input.nextLine();
-System.out.println("Please enter a adjective");
-String adjective1 = input.nextLine();
-System.out.println("Please enter a location");
-String location1 = input.nextLine();
-System.out.println("Please enter a verb");
-String verb1 = input.nextLine();
-System.out.println("Please enter a item");
-String item1 = input.nextLine();
-System.out.println(name1 + " is " + adjective1 + " because he is going to the " + location1);
-System.out.println("He is " + verb1 + " soccer with his friends so he brings his " + item1);
+     while (count < 10) {
+         System.out.println("The count is " + count);
+         count = count + 1;
+         
+     }
+     System.out.println("Count finished");
+
+     while (color == "red"){
+         System.out.println("The color is " + color);
+         color = "green";
+     }
+     System.out.println("Color finished");
+
+     while (nameIs = false){
+         System.out.println("my name is Bob " + nameIs);
+         nameIs = false;
+     }
+     System.out.println("Name finished");
+
+
+
+
+
     }
 
 }

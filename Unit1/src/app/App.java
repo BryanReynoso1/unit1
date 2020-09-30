@@ -1,31 +1,22 @@
 package app;
 
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+     Scanner input = new Scanner(System.in);
      int count = 0;
-     String color = "red";
-     boolean nameIs = false;
-
-     while (count < 10) {
-         System.out.println("The count is " + count);
+     System.out.println("Please enter a color");
+     String color = input.nextLine();
+     System.out.println("Please enter a number");
+     int number = input.nextInt();
+     System.out.println(" ");
+     while (count<= number){
+         System.out.println(color);
          count = count + 1;
-         
      }
-     System.out.println("Count finished");
 
-     while (color == "red"){
-         System.out.println("The color is " + color);
-         color = "green";
-     }
-     System.out.println("Color finished");
-
-     while (nameIs = false){
-         System.out.println("my name is Bob " + nameIs);
-         nameIs = false;
-     }
-     System.out.println("Name finished");
-
+     
 
 
 

@@ -4,55 +4,47 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner input = new Scanner(System.in);
-System.out.println("What is the capital of Minnesota?");
-String answer1 = input.nextLine();
-String correctAnswer1 = "St.Paul";
-if (answer1.equals(correctAnswer1)){
-    System.out.println("correct");
+System.out.println("Welcome to monkey facts, please choose a fact (1-5)");
+String fact1 = input.nextLine();
+String choosefact1 = "1";
+if (fact1.equals(choosefact1)){
+    System.out.println("There are over 2 different species of monkeys world which are old world monkeys and new wrold monkeys");
 } else {
-    System.out.println("incorrect");
+    System.out.println("Error");
 }
-System.out.println("Where is Peru located?");
-String answer2 = input.nextLine();
-String correctAnswer2 = "South America";
-if (answer2.equals(correctAnswer2)){
-    System.out.println("correct");
+String fact2 = input.nextLine();
+String choosefact2 = "2";
+if (fact2.equals(choosefact2)){
+    System.out.println("Monkeys live both on the ground and in trees");
 } else {
-    System.out.println("incorrect");
+    System.out.println("Error");
 }
-System.out.println("What year did WW2 started?");
-String answer3 = input.nextLine();
-String correctAnswer3 = "1939";
-if (answer3.equals(correctAnswer3)){
-    System.out.println("correct");
+String fact3 = input.nextLine();
+String choosefact3 = "3";
+if (fact3.equals(choosefact3)){
+    System.out.println("A group of mokey is reffered to as a mission, tribe, or troop");
 } else {
-    System.out.println("incorrect");
+    System.out.println("Error");
 }
-System.out.println("What year did WW1 started"); 
-String answer4 = input.nextLine();
-String correctAnswer4 = "1914";
-if (answer4.equals(correctAnswer4)){
-    System.out.println("correct");
+String fact4 = input.nextLine();
+String choosefact4 = "4";
+if (fact4.equals(choosefact4)){
+    System.out.println("All species of monkeys have opposable thumbs just like humans");
 } else {
-    System.out.println("incorrect");
+    System.out.println("Error");
 }
-System.out.println("When is independence day for USA");
-String answer5 = input.nextLine();
-String correctAnswer5 = "July 4";
-if (answer5.equals(correctAnswer5)){
-    System.out.println("correct");
+String fact5 = input.nextLine();
+String choosefact5 = "5";
+if (fact5.equals(choosefact5)){
+   System.out.println("Monkeys are mostly omnivores");
 } else {
-    System.out.println("incorrect");
+    System.out.println("Error");
 }
-int score = 0;
 
-if (answer1.equals(correctAnswer1)) score++;
-if (answer2.equals(correctAnswer2)) score++;
-if (answer3.equals(correctAnswer3)) score++;
-if (answer4.equals(correctAnswer4)) score++;
-if (answer5.equals(correctAnswer5)) score++;
-System.out.println("Your score is " + score + "/5");
-System.out.println("your percent will be " + score*20 + "%");
+
+
+
+
         
     
      

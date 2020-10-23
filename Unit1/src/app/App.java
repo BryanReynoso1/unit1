@@ -5,48 +5,25 @@ import java.util.Scanner;
 public class App {
    
     public static void main(String[] args) throws Exception {
-   int targetNum = 55;
-   boolean isFinished = false;
-
-   Scanner input = new Scanner(System.in);
-
-   while(isFinished == false){
-   System.out.println("Guess a number 0 and 100");
-   int guess = input.nextInt();
-   input.nextLine();
-
-   if (guess == targetNum){
-       System.out.println("Correct");
-       isFinished = true;
-   }
-
-    else{
-
-        if(guess > targetNum){
-            System.out.println("High");
-        }
-        else{
-            System.out.println("Low");
-        }
-    }
-}
-
-
-
-
-
-
-        
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter two different numbers");
+        int user1 = input.nextInt();
+        int user2 = input.nextInt();
+        for (int i = user1; i < user2;i++){
+        {
+        if (i % 2 == 0) {
+        System.out.println(i);
     
-     
+        
+        
+        } 
 
-     
-
-     
-
-
-
-
+    
     }
+    }
+
+    
+    
+}
 
 }
